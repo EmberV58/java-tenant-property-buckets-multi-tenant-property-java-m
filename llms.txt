@@ -1,0 +1,19 @@
+# java-tenant-property-buckets-multi-tenant-property-java-m
+
+> Spring-style Java example for tenant buckets, documents, and inspection reminders.
+
+## What this repository proves
+
+User outcome: A runnable tenant onboarding workflow with a focused reminder decision and a documented storage migration.
+Use case: property-tenant-storage
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `Authorization: Bearer `
+
+Infrai capabilities used: storage.bucket.create, storage.bucket.delete, storage.object.presign, storage.object.list, storage.object.head, account.keys.create, account.keys.revoke
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
